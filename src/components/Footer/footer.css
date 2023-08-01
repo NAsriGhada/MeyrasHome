@@ -1,0 +1,66 @@
+.footerMainContent {
+    background-color: #041c32;
+    z-index: 3;
+}
+
+.allTogether {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+
+p.email {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 111.25%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding: 20px 0 20px 0;
+}
+
+p.Phonenumber {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 111.25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ecb365;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+}
+
+.socialMedia img {
+    padding: 0 5px 20px 5px;
+}
+
+.footerMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footerMenu a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 111.25%;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+}

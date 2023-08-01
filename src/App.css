@@ -1,0 +1,213 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+html,
+/* body {
+  height: 100%;
+  background: url('src\assets\img\logo\LOGOs.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-color: aliceblue;
+} */
+body {
+    margin: 0;
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width: 428px) {
+    app-footer {
+        display: none;
+    }
+}
+
+::-webkit-scrollbar {
+    background-color: #ccc;
+    width: 8px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #002249;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0px;
+    font-family: 'Nunito';
+}
+
+p {
+    font-weight: 600;
+    margin: 0px;
+    font-family: 'Nunito';
+}
+
+button {
+    /* width: 171px;
+  height: 38px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 9px 48px;
+    line-height: 111.25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+    border: unset;
+}
+
+.section-gap {
+    padding-top: 148px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    button {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    button {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    button {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    button {
+        font-size: 19px;
+    }
+}
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.loader-container {
+
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    width: 100%;
+    height: 100%;
+    background: #000000a8;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: 999999;
+    margin-top: 25%;
+    margin-left: 50%;
+}
+
+.loader::before {
+    content: '';
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: -24px;
+    animation: animloader 4s ease infinite;
+}
+
+.loader::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    animation: animloader2 2s ease infinite;
+}
+
+@keyframes animloader {
+    0% {
+        box-shadow: 0 24px rgba(255, 255, 255, 0), 24px 24px rgba(255, 255, 255, 0), 24px 48px rgba(255, 255, 255, 0), 0px 48px rgba(255, 255, 255, 0);
+    }
+
+    12% {
+        box-shadow: 0 24px white, 24px 24px rgba(255, 255, 255, 0), 24px 48px rgba(255, 255, 255, 0), 0px 48px rgba(255, 255, 255, 0);
+    }
+
+    25% {
+        box-shadow: 0 24px white, 24px 24px white, 24px 48px rgba(255, 255, 255, 0), 0px 48px rgba(255, 255, 255, 0);
+    }
+
+    37% {
+        box-shadow: 0 24px white, 24px 24px white, 24px 48px white, 0px 48px rgba(255, 255, 255, 0);
+    }
+
+    50% {
+        box-shadow: 0 24px white, 24px 24px white, 24px 48px white, 0px 48px white;
+    }
+
+    62% {
+        box-shadow: 0 24px rgba(255, 255, 255, 0), 24px 24px white, 24px 48px white, 0px 48px white;
+    }
+
+    75% {
+        box-shadow: 0 24px rgba(255, 255, 255, 0), 24px 24px rgba(255, 255, 255, 0), 24px 48px white, 0px 48px white;
+    }
+
+    87% {
+        box-shadow: 0 24px rgba(255, 255, 255, 0), 24px 24px rgba(255, 255, 255, 0), 24px 48px rgba(255, 255, 255, 0), 0px 48px white;
+    }
+
+    100% {
+        box-shadow: 0 24px rgba(255, 255, 255, 0), 24px 24px rgba(255, 255, 255, 0), 24px 48px rgba(255, 255, 255, 0), 0px 48px rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes animloader2 {
+    0% {
+        transform: translate(0, 0) rotateX(0) rotateY(0);
+    }
+
+    25% {
+        transform: translate(100%, 0) rotateX(0) rotateY(180deg);
+    }
+
+    50% {
+        transform: translate(100%, 100%) rotateX(-180deg) rotateY(180deg);
+    }
+
+    75% {
+        transform: translate(0, 100%) rotateX(-180deg) rotateY(360deg);
+    }
+
+    100% {
+        transform: translate(0, 0) rotateX(0) rotateY(360deg);
+    }
+}

@@ -1,0 +1,212 @@
+{
+  "home": {
+    "banner": {
+      "title": "VOS MEILLEURS AMIS VIRTUELS POUR LA MISE EN SCÈNE"
+    },
+    "why-us": {
+      "title": "Pourquoi faire partie de notre famille ?",
+      "text": "Nous fournissons des rendus professionnels de Staging virtuel, de modélisation 3D, de rénovation virtuelle et bien d'autres services.",
+      "bloc1": {
+        "title": "LIVRAISON RAPIDE",
+        "text": "Nous livrons dans les 24 heures et dans les 48 heures pour plus de 20 photos."
+      },
+      "bloc2": {
+        "title": "AUCUN ABONNEMENT",
+        "text": "Vous ne payez qu'à l'image et n'avez pas besoin de vous abonner."
+      },
+      "bloc3": {
+        "title": "DES COMMENTAIRES ILLIMITÉS",
+        "text": "Notre objectif est votre satisfaction. Nous permettons à nos clients d'apporter des modifications illimitées"
+      },
+      "bloc4": {
+        "title": "VIDÉO GRATUITE SUR LES RÉSEAUX SOCIAUX",
+        "text": "Après avoir passé commande, vous recevrez une vidéo promotionnelle pour votre annonce. GRATUITEMENT !"
+      }
+    },
+    "recent-listings": {
+      "title": "LISTES RÉCEMMENT MISES EN SCÈNE"
+    },
+    "what-we-offer": {
+      "title": "Avantages de la mise en scène virtuelle",
+      "text": "Ne sous-estimez pas le pouvoir de la mise en scène virtuelle ! Voici l'effet de notre mise en scène virtuelle sur les annonces de nos clients.",
+      "bloc1": {
+        "text": "Les unités virtuellement mises en scène ont 85 % de chances supplémentaires d'être vendues plus rapidement.!"
+      },
+      "bloc2": {
+        "text": "Après la mise en scène virtuelle de votre annonce, vous pouvez augmenter le prix de l'unité jusqu'à 40% !"
+      },
+      "bloc3": {
+        "text": "70% des propriétés virtuellement mises en scène ont été vendues en seulement 2 semaines sur le marché !"
+      }
+    },
+    "our-services": {
+      "title": "NOS SERVICES",
+      "bloc1": {
+        "title": "MISE EN SCÈNE VIRTUELLE",
+        "text": "Combien de nouvelles visites souhaitez-vous pour votre annonce ? Virtual Staging augmentera votre temps de vente de 85%."
+      },
+      "bloc2": {
+        "title": "RÉNOVATION VIRTUELLE",
+        "text": "Vous souhaitez changer les sols, les plafonds ou réparer des dégâts ? Essayez Virtual Renovation dès maintenant et donnez une nouvelle âme à votre annonce."
+      },
+      "bloc3": {
+        "title": "MODÉLISATION 3D",
+        "text": "Pourquoi attendre que l'annonce soit construite ? Créez votre vision parfaite de votre plan 2D et vendez-la maintenant !"
+      },
+      "text": "Avez-vous d'autres projets pour votre liste ?",
+      "btns": "En savoir plus",
+      "btn": "Voir tous les services"
+    }
+  },
+  "Place-order": {
+    "text": "COMMANDEZ MAINTENANT ET OBTENEZ UNE VIDÉO PROMOTIONNELLE GRATUITE POUR VOTRE ANNONCE !",
+    "btn": "Commander"
+  },
+  "partners": {
+    "title": "Ils nous font confiance"
+  },
+  "reviews": {
+    "title": "CE QUE NOS CLIENTS DISENT DE NOUS"
+  },
+  "gallery": {
+    "IE": {
+      "text": "Augmentez vos chances d'obtenir des offres multiples en attirant plus de visiteurs sur votre annonce dès maintenant !"
+    },
+    "IR": {
+      "text": "Augmentez vos chances d'obtenir des offres multiples en attirant plus de visiteurs sur votre annonce dès maintenant !"
+    },
+    "3DM": {
+      "text": "Profitez de la meilleure façon de vendre votre annonce alors qu'elle est encore en construction !"
+    },
+    "VR": {
+      "text": "Augmentez vos chances d'obtenir des offres multiples en attirant plus de visiteurs sur votre annonce dès maintenant !"
+    },
+    "VS": {
+      "text": "Augmentez vos chances d'obtenir des offres multiples en attirant plus de visiteurs sur votre annonce dès maintenant !"
+    }
+  },
+  "contact-us": {
+    "title": "CONTACTEZ-NOUS",
+    "text": "Nous sommes heureux de vous entendre. Comment pouvons-nous vous aider ?",
+    "placeholder1": "Saisir votre nom",
+    "placeholder2": "Saisissez votre adresse e-mail",
+    "placeholder3": "Entrez votre message",
+    "btn": "Envoyer"
+  },
+  "our-services": {
+    "bloc4": {
+      "title": "Amélioration des images",
+      "text": "Améliorez les couleurs de votre image en rendant le ciel plus vif et l'herbe plus vivante."
+    },
+    "bloc5": {
+      "title": "Retrait de l'objet",
+      "text": "Désencombrer ou supprimer tous les objets et éléments indésirables de votre photo"
+    },
+    "bloc6": {
+      "title": "ÉDITION PERSONNALISÉE",
+      "text": "Changez la couleur de votre peinture, ajoutez un cadre d'art dans le salon ou un véhicule utilitaire sport dans votre garage."
+    },
+    "bloc7": {
+      "title": "Vidéo promotionnelle",
+      "text": "Voulez-vous partager votre annonce sur vos comptes de médias sociaux sous forme de vidéo ? Nous réalisons les vidéos promotionnelles les plus cool. Découvrez-les dès maintenant !"
+    },
+    "btn": "Commander",
+    "PV": {
+      "title": "NOTRE VIDÉO PROMOTIONNELLE GRATUITE",
+      "text": "Cliquez sur 'play' pour voir un exemple de vidéo promotionnelle",
+      "btn": "Passer une commande"
+    }
+  },
+  "VS": {
+    "text": "Avez-vous d'autres projets pour votre liste ?",
+    "btn": "Voir tous nos services"
+  },
+  "place-order-page": {
+    "title": "Passez votre commande",
+    "text": "Ici, nous avons besoin que vous nous fournissiez quelques informations. Plus nous recevrons d'informations de votre part, plus nous pourrons vous satisfaire.",
+    "subtitle": "Sélectionner un produit",
+    "card1": {
+      "title": "mise en scène virtuelle",
+      "subtitle": "Faites briller votre propriété grâce à notre service de mise en scène virtuelle ! Obtenez des résultats parfaits sur",
+      "price": "$ 35.00 CAD",
+      "quantity": "Quantité"
+    },
+    "card2": {
+      "title": "rénovation virtuelle",
+      "subtitle": "Transformez votre espace sans soulever un marteau ! Essayez notre service de rénovation virtuelle dès aujourd'hui.",
+      "price": "$ 60.00 CAD"
+    },
+    "card3": {
+      "title": "Modélisation 3D (intérieur)",
+      "subtitle": "Découvrez la maison de vos rêves avant qu'elle ne soit construite ! Essayez notre modélisation 3D pour visualiser votre espace comme jamais auparavant.",
+      "price": "$ 199.00 CAD"
+    },
+    "card4": {
+      "title": "Modélisation 3D (extérieur)",
+      "subtitle": "Donnez vie à votre projet de l'extérieur vers l'intérieur ! Essayez notre modélisation des façades et voyez votre vision se concrétiser.",
+      "price": "$ 299.00 CAD"
+    },
+    "card5": {
+      "title": "retrait de l'objet",
+      "subtitle": "Retirez tous les éléments indésirables de vos photos. C'est GRATUIT si vous les mettez en scène virtuellement après !",
+      "price": "$ 15.00 CAD"
+    },
+    "card6": {
+      "title": "amélioration de l'image",
+      "subtitle": "Faites briller vos souvenirs ! Essayez notre amélioration d'image et faites passer vos photos au niveau supérieur.",
+      "price": "$ 15.00 CAD"
+    },
+    "card7": {
+      "title": "Plan de couleurs en 2D",
+      "subtitle": "Voyez votre espace en couleurs ! Essayez notre service de plan en couleur 2D et visualisez votre design d'une toute nouvelle manière.",
+      "price": "$ 15.00 CAD"
+    },
+    "card8": {
+      "title": "Plan en 3D",
+      "subtitle": "Découvrez votre design en couleur et en profondeur ! Essayez notre service de plan couleur en 3D et donnez vie à votre espace.",
+      "price": "$ 15.00 CAD"
+    },
+    "POT": {
+      "text1": "Pour passer votre commande, il vous suffit de nous contacter par courrier électronique à l'adresse suivante",
+      "text2": "ou appelez-nous au",
+      "text1resp":"Pour passer votre commande, contactez-nous simplement par mail:",
+      "text2resp":"téléphone:"
+    }
+  },
+  "header": {
+    "topPart": {
+      "text": "OBTENEZ UNE VIDÉO PROMOTIONNELLE GRATUITE AVEC CHAQUE COMMANDE",
+      "Login": "Connexion"
+    },
+    "menu": {
+      "m1": "Connexion",
+      "m2": "Accueil",
+      "m3": "Virtual Staging",
+      "m4": "Services",
+      "m5": "Galerie",
+      "m6": "Contact",
+      "m7": "Passer une commande"
+    }
+  },
+  "logIn": {
+    "logIn": {
+      "title": "Connexion",
+      "placeholder1": "Saisissez votre adresse e-mail",
+      "placeholder2": "Entrez votre mot de passe",
+      "btn": "Connexion"
+    },
+    "btn": "Vous n'avez pas encore de compte ?",
+    "Signup": {
+      "title": "S'inscrire",
+      "label1": "Votre prénom :",
+      "label2": "Votre nom",
+      "label3": "Choisissez une ville :",
+      "label4": "Choisissez un mot de passe :",
+      "label5": "Votre téléphone :",
+      "label6": "Votre email :",
+      "label7": "Providence :",
+      "label8": "Confirmez votre mot de passe :",
+      "btn": "S'inscrire"
+    }
+  }
+}

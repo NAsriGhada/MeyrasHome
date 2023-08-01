@@ -1,0 +1,161 @@
+section.offerContainer {
+    background-color: #ffffff;
+}
+
+.offerMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+}
+
+.offerMain h1 {
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 27px;
+    padding-bottom: 25px;
+    margin-top: 70px;
+}
+
+.offerMain p {
+    letter-spacing: 0.02em;
+    color: #041c32;
+    font-size: 17px;
+    line-height: 111.25%;
+}
+
+.contentOffer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.detailsConstentOffer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 15px 40px 15px;
+}
+
+.detailsConstentOffer p {
+    letter-spacing: 0.02em;
+    color: #041c32;
+    font-size: 15px;
+    line-height: 141.75%;
+}
+
+/******************************************/
+
+@media (max-width: 960px) {
+    .offerMain p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 910px) {
+    .offerMain p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 810px) {
+    .offerMain p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+    .offerMain p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 650px) {
+    .offerMain p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 670px) {
+    .offerMain h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 670px) {
+    .offerMain h1 {
+        font-size: 25px;
+    }
+
+    .offerMain p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .detailsConstentOffer {
+        padding: 40px 7px 40px 7px;
+    }
+}
+
+@media (max-width: 590px) {
+    .offerMain p {
+        font-size: 7px;
+    }
+
+    .detailsConstentOffer img {
+        width: 135.08px;
+        height: 140.83px;
+    }
+}
+
+@media (max-width: 450px) {
+    .offerMain {
+        padding: 10px 0 10px 0;
+    }
+
+    .detailsConstentOffer img {
+        width: 120.08px;
+        height: 120.83px;
+    }
+}
+
+@media (max-width: 400px) {
+    .offerMain h1 {
+        font-size: 20px;
+    }
+
+    .offerMain p {
+        font-size: 6px;
+    }
+
+    .detailsConstentOffer img {
+        width: 110.08px;
+        height: 108.83px;
+    }
+}
+
+@media (max-width: 380px) {
+    .detailsConstentOffer img {
+        width: 95.08px;
+        height: 90.83px;
+    }
+
+    .detailsConstentOffer {
+        padding: 40px 0 40px 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .offerMain p {
+        font-size: 5px;
+    }
+
+    .detailsConstentOffer img {
+        width: 75.08px;
+        height: 75.83px;
+    }
+}

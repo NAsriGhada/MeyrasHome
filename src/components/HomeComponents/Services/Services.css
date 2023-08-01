@@ -1,0 +1,317 @@
+section.servicesContainer {
+    padding: 70px 15px 70px 15px;
+    background-color: #ffffff;
+}
+
+.servicesContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.servicesContent h1 {
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #041c32;
+    font-size: 27px;
+    line-height: 111.25%;
+}
+
+.servicesContent img {
+    box-sizing: border-box;
+    width: 802px;
+    height: 268.29px;
+    border-radius: 2px;
+}
+
+.partOneServices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 65px 25px 65px;
+}
+
+.partOneServicesContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding-right: 60px; */
+}
+
+.partOneServicesContent h2 {
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 111.25%;
+    color: #041c32;
+    padding-bottom: 15px;
+}
+
+.partOneServicesContent p {
+    letter-spacing: 0.055em;
+    font-size: 17px;
+    line-height: 153.75%;
+    color: #041c32;
+    padding-bottom: 15px;
+}
+
+.partOneServicesContent button {
+    background: #044c7b;
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.15);
+    border-radius: 2px;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+}
+
+.partTwoServices {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 25px 65px 25px 65px;
+}
+
+.partTwoServicesContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding-left: 60px; */
+}
+
+.partTwoServicesContent h2 {
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 111.25%;
+    color: #041c32;
+    padding-bottom: 15px;
+}
+
+.partTwoServicesContent p {
+    letter-spacing: 0.055em;
+    font-size: 17px;
+    line-height: 153.75%;
+    color: #041c32;
+    padding-bottom: 15px;
+}
+
+.partTwoServicesContent button {
+    background: #044c7b;
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.15);
+    border-radius: 2px;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+}
+
+.partThreeServices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 25px 25px 25px 25px;
+}
+
+.partThreeServices p {
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-size: 19px;
+    line-height: 111.25%;
+    color: #041c32;
+    padding-right: 60px;
+}
+
+.partThreeServices button {
+    width: 251px;
+    height: 47px;
+    background: #ffffff;
+    border: 1px solid #064663;
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.15),
+        inset -2px -2px 4px -1px rgba(4, 28, 50, 0.2);
+    border-radius: 2px;
+    color: #044c7b;
+}
+
+@media screen and (min-width:1065px) {
+    .servicesContent p {
+        max-width: 252px;
+        width: 100%;
+    }
+
+    .partTwoServicesContent {
+        margin-left: 103px;
+        align-items: flex-end;
+        text-align: end;
+
+    }
+
+    .partOneServicesContent,
+    .partThreeServicesContent {
+        margin-right: 103px;
+
+    }
+}
+
+/******************************************/
+/* @media (max-width: 1065px) {
+  .partOneServices {
+    padding: 25px 15px 25px 15px;
+  }
+  .partOneServicesContent {
+    padding-right: 20px;
+  }
+  .partTwoServices {
+    padding: 25px 15px 25px 15px;
+  }
+  .partTwoServicesContent {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 1020px) {
+  .partOneServices {
+    padding: 25px 5px 25px 15px;
+  }
+  .partOneServicesContent {
+    padding-right: 0px;
+  }
+  .partTwoServices {
+    padding: 25px 5px 25px 15px;
+  }
+  .partTwoServicesContent {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .servicesContent img {
+    width: 750px;
+  }
+}
+@media (max-width: 940px) {
+  .servicesContent img {
+    width: 750px;
+  }
+} */
+
+@media (max-width: 1065px) {
+
+    .partOneServices,
+    .partTwoServices,
+    .partThreeServices {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        padding: unset;
+    }
+
+    .partOneServicesContent,
+    .partTwoServicesContent {
+        align-items: center;
+        text-align: center;
+    }
+
+    .partOneServices img,
+    .partTwoServices img,
+    .partThreeServices img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.go-to-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 160px;
+    width: 100%;
+    align-content: center;
+    gap: 30px;
+}
+
+.go-to-services button {
+    /* width: 251px;
+height: 47px; */
+    /* font-size: 19px; */
+    color: #044C7B;
+    background: #FFFFFF;
+    border: 1px solid #064663;
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.15), inset -2px -2px 4px -1px rgba(4, 28, 50, 0.2);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.go-to-services p {
+    color: #041C32;
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .go-to-services p,
+    .go-to-services button {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .go-to-services p,
+    .go-to-services button {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .go-to-services p,
+    .go-to-services button {
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .go-to-services p,
+    .go-to-services button {
+        font-size: 22px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .servicesContainer p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .servicesContainer p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .servicesContainer p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .servicesContainer p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .servicesContainer p {
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,212 @@
+{
+  "home": {
+    "banner": {
+      "title": "YOUR BEST VIRTUAL STAGING BUDDIES"
+    },
+    "why-us": {
+      "title": "Why become part of our family?",
+      "text": "We deliver professional renders of Virtual Staging, 3D Modeling, Virtual Renovation and many other services.",
+      "bloc1": {
+        "title": "FAST DELIVERY",
+        "text": "We deliver within 24 hours and in 48 hours for more than 20 photos"
+      },
+      "bloc2": {
+        "title": "NO SUBSCRIPTION",
+        "text": "Only pay per image rate.You don't need to pay for subscription"
+      },
+      "bloc3": {
+        "title": "UNLIMITED REVIEWS",
+        "text": "Our goal is your satisfaction. We allow our clients to have unlimited changes"
+      },
+      "bloc4": {
+        "title": "FREE SOCIALMEDIA VIDEO",
+        "text": "After ordering, you will get a promotional video for your listing. FOR FREE!"
+      }
+    },
+    "recent-listings": {
+      "title": "RECENTLY STAGED LISTINGS"
+    },
+    "what-we-offer": {
+      "title": " Benefits of Virtual Staging",
+      "text": "Don't underestimate the power of Virtual Staging! This is the effect of our Virtual Staging on our clients listings",
+      "bloc1": {
+        "text": "Virtually Staged units have 85% more chance to be sold faster!"
+      },
+      "bloc2": {
+        "text": "After Virtually Staging your listing, you can increase the unit's price till 40%!"
+      },
+      "bloc3": {
+        "text": "70% of the virtually staged listings, were sold in just 2 weeks in the market!"
+      }
+    },
+    "our-services": {
+      "title": "OUR SERVICES",
+      "bloc1": {
+        "title": "VIRTUAL STAGING",
+        "text": "How many new visits do you want for your listing? Virtual Staging will increase your selling time by 85%"
+      },
+      "bloc2": {
+        "title": "VIRTUAL RENOVATION",
+        "text": "Do you want to change your floors, cielings or fix any damage? Try Virtual Renovation now and give your listing a new soul"
+      },
+      "bloc3": {
+        "title": "3D MODELING",
+        "text": "Why waiting for the listing to be built? Create your perfect vision of your 2D plan and sell it now!"
+      },
+      "text": "Do you have other plans for your listing?",
+      "btns": "Learn more",
+      "btn": "See all our services"
+    }
+  },
+  "Place-order": {
+    "text": "PLACE AND ORDER NOW AND GET A FREE LISTING PROMOTIONAL VIDEO FOR YOUR LISTING !",
+    "btn": "Place an order"
+  },
+  "partners": {
+    "title": "They trust us"
+  },
+  "reviews": {
+    "title": "What our costumers have said about us"
+  },
+  "gallery": {
+    "IE": {
+      "text": "Increase your chance of multiple offers by attracting more visitors to your listing now!"
+    },
+    "IR": {
+      "text": "Increase your chance of multiple offers by attracting more visitors to your listing now!"
+    },
+    "3DM": {
+      "text": "Profit from the ultimate way to sell your listing while it's still under construction!"
+    },
+    "VR": {
+      "text": "Increase your chance of multiple offers by attracting more visitors to your listing now!"
+    },
+    "VS": {
+      "text": "Increase your chance of multiple offers by attracting more visitors to your listing now!"
+    }
+  },
+  "contact-us": {
+    "title": "CONTACT US",
+    "text": "We are pleased to hear from you. How can we help?",
+    "placeholder1": "Enter your name",
+    "placeholder2": "Enter your email adress",
+    "placeholder3": "Enter your message",
+    "btn": "submit"
+  },
+  "our-services": {
+    "bloc4": {
+      "title": "Image enhancement",
+      "text": "Enhance your image colors by making the skies more vivid and the grass more alive"
+    },
+    "bloc5": {
+      "title": "Item removal",
+      "text": "Declutter or remove all the unwanted items and objects in your photo"
+    },
+    "bloc6": {
+      "title": "CUSTOMIZED EDITING",
+      "text": "Change your paint color, add an art frame to the livingroom or add an SUV in your garage"
+    },
+    "bloc7": {
+      "title": "lISTING PROMOTIONAL VIDEO",
+      "text": "Do you want to share your listing on your social media accounts in video format? We do the coolest promotional videos. Check it out now!"
+    },
+    "btn": "Order now",
+    "PV": {
+      "title": "OUR FREE PROMOTIONAL VIDEO",
+      "text": "Click play to watch an example of the promotional video",
+      "btn": "Place an order now"
+    }
+  },
+  "VS": {
+    "text": "Do you have other plans for your listing?",
+    "btn": "See all our services"
+  },
+  "place-order-page": {
+    "title": "Place your order",
+    "text": "Here we need you to provide us some informations. The more infos we get from you, the more we will be able to satisfy you",
+    "subtitle": "Select a product",
+    "card1": {
+      "title": "virtual staging",
+      "subtitle": "Make your property shine with our virtual staging service! Get picture-perfect results on",
+      "price": "$ 35.00 CAD",
+      "quantity": "Quantity"
+    },
+    "card2": {
+      "title": "virtual renovation",
+      "subtitle": "Transform your space without lifting a hammer! Try our virtual renovation service today.",
+      "price": "$ 60.00 CAD"
+    },
+    "card3": {
+      "title": "3d modeling (interior)",
+      "subtitle": "Experience your dream home before it's built! Try our 3D modeling to visualize your space like never before.",
+      "price": "$ 199.00 CAD"
+    },
+    "card4": {
+      "title": "3d modeling (exterior)",
+      "subtitle": "Bring your project to life from the outside in! Try our Facade modeling and see your vision come to life.",
+      "price": "$ 299.00 CAD"
+    },
+    "card5": {
+      "title": "item removal",
+      "subtitle": "Remove any unwanted items from your photos. It's for FREE if you will virtually stage them after!",
+      "price": "$ 15.00 CAD"
+    },
+    "card6": {
+      "title": "image enhancement",
+      "subtitle": "Make your memories shine! Try our image enhancement and bring your photos to the next level.",
+      "price": "$ 15.00 CAD"
+    },
+    "card7": {
+      "title": "2D color plan",
+      "subtitle": "See your space in living color! Try our 2D color plan service and visualize your design in a whole new way.",
+      "price": "$ 15.00 CAD"
+    },
+    "card8": {
+      "title": "3D plan",
+      "subtitle": "Experience your design in full color and depth! Try our 3D color plan service and bring your space to life.",
+      "price": "$ 15.00 CAD"
+    },
+    "POT": {
+      "text1": "To place your order, simply reach out to us by email at",
+      "text2": "or give us a call at",
+      "text1resp":"To place your order, simply reach out to us by mail:",
+      "text2resp":"phone:"
+    }
+  },
+  "header": {
+    "topPart": {
+      "text": "GET A FREE LISTING PROMOTIONAL VIDEO WITH EVERY ORDER",
+      "Login": "Login/Signup"
+    },
+    "menu": {
+      "m1": "Login/Signup",
+      "m2": "Home",
+      "m3": "Virtual Staging",
+      "m4": "Services",
+      "m5": "Gallery",
+      "m6": "Contact Us",
+      "m7": "Place an order"
+    }
+  },
+  "logIn": {
+    "logIn": {
+      "title": "Login",
+      "placeholder1": "Enter your email adress",
+      "placeholder2": "Enter your password",
+      "btn": "Submit"
+    },
+    "btn": "You don't have an account yet?",
+    "Signup": {
+      "title": "Signup",
+      "label1": "Your name:",
+      "label2": "Your family name:",
+      "label3": "Choose city:",
+      "label4": "Choose a password:",
+      "label5": "Your phone:",
+      "label6": "Your email:",
+      "label7": "Providence:",
+      "label8": "Confirm your password:",
+      "btn": "Submit"
+    }
+  }
+}

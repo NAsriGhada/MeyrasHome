@@ -1,0 +1,9 @@
+.bg {
+    height: 100%;
+    /* background: url('src\assets\img\logo\LOGOs.png'); */
+    background: url('../../assets/img/logo/LOGOs.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 99999;
+}
