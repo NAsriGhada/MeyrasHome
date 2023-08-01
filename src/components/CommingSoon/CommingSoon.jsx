@@ -1,5 +1,5 @@
-import React from 'react'
-import './commingSoon.css'
+import React from "react";
+import "./commingSoon.css";
 
 const CommingSoon = () => {
   return (
@@ -25,14 +25,23 @@ const CommingSoon = () => {
           <p>514-447-7392 - info@meryashome.com</p>
           <p>Follow us:</p>
           <div className="imgsLastPart">
-            <img src={require("../../assets/img/comingSoon/facebook.png")} alt="" />
-            <img src={require("../../assets/img/comingSoon/instagram.png")} alt="" />
-            <img src={require("../../assets/img/comingSoon/youtube.png")} alt="" />
+            <img
+              src={require("../../assets/img/comingSoon/facebook.png")}
+              alt=""
+            />
+            <img
+              src={require("../../assets/img/comingSoon/instagram.png")}
+              alt=""
+            />
+            <img
+              src={require("../../assets/img/comingSoon/youtube.png")}
+              alt=""
+            />
           </div>
         </div>
       </section>
     </div>
   );
-}
+};
 
-export default CommingSoon
+export default CommingSoon;

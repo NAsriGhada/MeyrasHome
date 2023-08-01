@@ -178,8 +178,8 @@ const WhyUs = () => {
                 y2="59.1193"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#ECB365" />
-                <stop offset="1" stop-color="#041C32" />
+                <stop stopColor="#ECB365" />
+                <stop offset="1" stopColor="#041C32" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_0_1"
@@ -189,9 +189,9 @@ const WhyUs = () => {
                 y2="66.6474"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#041C32" />
-                <stop stop-color="#ECB365" />
-                <stop offset="0.0001" stop-color="#041C32" />
+                <stop stopColor="#041C32" />
+                <stop stopColor="#ECB365" />
+                <stop offset="0.0001" stopColor="#041C32" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_0_1"
@@ -201,8 +201,8 @@ const WhyUs = () => {
                 y2="62.5988"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.9999" stop-color="#ECB365" />
-                <stop offset="1" stop-color="#041C32" />
+                <stop offset="0.9999" stopColor="#ECB365" />
+                <stop offset="1" stopColor="#041C32" />
               </linearGradient>
             </defs>
           </svg>

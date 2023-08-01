@@ -92,7 +92,7 @@ const Header = () => {
                   <Link to={"/signUp"}>{t("header.menu.m1")}</Link>
                 </li>
                 <li className="link">
-                  <Link to={"/home"} className="nav-link">
+                  <Link to={"/"} className="nav-link">
                     {t("header.menu.m2")}
                   </Link>
                 </li>
