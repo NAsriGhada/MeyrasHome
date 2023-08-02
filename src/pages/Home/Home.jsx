@@ -6,6 +6,8 @@ import WeOffer from "../../components/HomeComponents/WeOffer.jsx/WeOffer";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import WhyUs from "../../components/HomeComponents/WhyUs/WhyUs";
+import StagedListing from "../../components/StagedListing/StagedListing";
+
 
 const Home = () => {
   return (
@@ -13,6 +15,7 @@ const Home = () => {
       <Header />
       <Banner />
       <WhyUs />
+      <StagedListing />
       <WeOffer />
       <Services />
       <Partners />

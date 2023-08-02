@@ -1,0 +1,49 @@
+[
+
+  {
+    "id": 2,
+    "link": "/virtual-staging",
+    "linkText": "Virtual Staging",
+    "linkTextFR": "Virtual Staging"
+  },
+  {
+    "id": 3,
+    "link": "/services",
+    "act": "",
+    "linkText": "Services",
+    "linkTextFR": "Services",
+    "child": true,
+    "submenu": [
+      {
+        "id": 3.1,
+        "link": "/services",
+        "linkText": "Virtual Staging",
+        "linkTextFR": "Virtual Staging"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "linkText": "Gallery",
+    "link": "/gallery",
+    "linkTextFR": "Galerie"
+  },
+  {
+    "id": 5,
+    "link": "/contact",
+    "linkText": "Contact Us",
+    "linkTextFR": "Contact"
+  },
+  {
+    "id": 6,
+    "linkText": "Place an order",
+    "link": "/placeOrder",
+    "linkTextFR": "Passer une commande"
+  },
+  {
+    "id": 7,
+    "link": "/contact",
+    "linkText": "Contact",
+    "linkTextFR": "Contact"
+  }
+]

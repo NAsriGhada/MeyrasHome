@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "imageBefore": "/assets/img/ir_galley/cac principale 1 (6).jpg",
+    "imageAfter": "/assets/img/ir_galley/salle a manger 1 (6).jpg",
+    "text": "bedroom - before",
+    "textFr": "chambre à coucher - avant"
+
+  },
+  {
+    "id": 2,
+    "imageBefore": "/assets/img/ir_galley/cac principale 1 (7).jpg",
+    "imageAfter": "/assets/img/ir_galley/salle a manger 1 (7).jpg",
+    "text": "bedroom - after",
+    "textFr": "chambre à coucher - après"
+  },
+  {
+    "id": 3,
+    "imageBefore": "/assets/img/ir_galley/cac principale 1 (8).jpg",
+    "imageAfter": "/assets/img/ir_galley/salle a manger 1 (8).jpg",
+    "text": "living room - before",
+    "textFr": "salon - avant"
+  },
+  {
+    "id": 4,
+    "imageBefore": "/assets/img/ir_galley/cac principale 1 (9).jpg",
+    "imageAfter": "/assets/img/ir_galley/salle a manger 1 (9).jpg",
+    "text": "living room - after",
+    "textFr": "salon - après"
+  },
+  {
+    "id": 5,
+    "imageBefore": "/assets/img/ir_galley/cac principale 1 (10).jpg",
+    "imageAfter": "/assets/img/ir_galley/salle a manger 1 (10).jpg",
+    "text": "family room - before",
+    "textFr": "salle familiale - avant"
+  },
+  {
+    "id": 6,
+    "imageBefore": "/assets/img/ir_galley/cac principale 1 (11).jpg",
+    "imageAfter": "/assets/img/ir_galley/salle a manger 1 (11).jpg",
+    "text": "family room - after",
+    "textFr": "salle familiale - après"
+  }
+]

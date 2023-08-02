@@ -1,0 +1,56 @@
+[
+  
+  {
+    "id": 1,
+    "images": [
+      "../assets/img/listing/Bureau-VS-HT.png",
+      "../assets/img/listing/Bureau-VS-HT.png",
+      "../assets/img/listing/ccp (2).png",
+      "../assets/img/listing/ccp vue 2.png",
+      "../assets/img/listing/ccp (2).png",
+      "../assets/img/listing/ccp vue 2.png"
+  
+    ],
+    "agent":"agent one",
+    "phone":"514-944-3417",
+    "photo":"../assets/img/testimonials/1646754297814 2.png",
+    "company":"../assets/img/testimonials/291819210_430305579110929_5946853758567552126_n 1.png"
+
+  }
+  ,
+  {
+    "id": 2,
+    "images": [
+      "../assets/img/listing/Bureau-VS-HT.png",
+      "../assets/img/listing/Bureau-VS-HT.png",
+      "../assets/img/listing/ccp (2).png",
+      "../assets/img/listing/ccp vue 2.png",
+      "../assets/img/listing/ccp (2).png",
+      "../assets/img/listing/ccp vue 2.png"
+  
+    ],
+    "agent":"agent two",
+    "phone":"514-944-3417",
+    "photo":"../assets/img/testimonials/1646754297814 2.png",
+    "company":"../assets/img/testimonials/291819210_430305579110929_5946853758567552126_n 1.png"
+
+  }
+  ,
+  {
+    "id": 3,
+    "images": [
+      "../assets/img/listing/Bureau-VS-HT.png",
+      "../assets/img/listing/Bureau-VS-HT.png",
+      "../assets/img/listing/ccp (2).png",
+      "../assets/img/listing/ccp vue 2.png",
+      "../assets/img/listing/ccp (2).png",
+      "../assets/img/listing/ccp vue 2.png"
+  
+    ],
+    "agent":"agent three",
+    "phone":"514-944-3417",
+    "photo":"../assets/img/testimonials/1646754297814 2.png",
+    "company":"../assets/img/testimonials/291819210_430305579110929_5946853758567552126_n 1.png"
+
+  }
+]

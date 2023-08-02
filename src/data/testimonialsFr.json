@@ -1,0 +1,52 @@
+[
+
+  {
+    "id": 2,
+    "img": "assets/img/testimonials/Sans titre-1.png",
+    "name": "Guillermo De Jesus",
+    "text": "Excellent service, en tant qu'agent immobilier c'est le genre de service qui doit être fait rapidement et avec la meilleure qualité possible, Yassine et son équipe n'ont jamais déçu jusqu'à présent, à recommander absolument.",
+    "company": "RE/MAX EXTRA"
+  },
+  {
+    "id": 3,
+    "img": "assets/img/testimonials/Sans titre-2.png",
+    "name": "Martin Lemay",
+    "text": "MERYAS est un collaborateur de choix pour moi et m'aide à ajouter une touche qui fait la différence lorsque nécessaire sur certaines photos de mes inscriptions. Merci de votre efficacité mandat après mandat et c'est vraiment un plaisir de travailler avec vous!",
+    "company": "Groupe Sutton Immobilia"
+  },
+  {
+    "id": 3,
+    "img": "assets/img/testimonials/Sans titre-3.png",
+    "name": "Valérie Turcotte",
+    "text": "I contacted 'Meryas Home' to furnish an empty apartment. Considering that this was my first experience in virtual furnishing, I can say that I am happy. I sincerely think this will make all the difference in the sale of the property! A huge thank you!!!! I recommend without hesitation!",
+    "company": "L'expert Immobilier P.M."
+  },
+  {
+    "id": 3,
+    "img": "assets/img/testimonials/Sans titre-4.png",
+    "name": "Steve Douek",
+    "text": "Was given a call to add value to my listing to add furniture to empty rooms. Took a chance and was very ahppy with results. Very professional and the end result speaks for itself. Will for sure use the services again to enhance the appearance of my listings",
+    "company": "RE/MAX Royal (Jordan)"
+  },
+  {
+    "id": 4,
+    "img": "assets/img/testimonials/Sans titre-5.png",
+    "name": "Martin Dupras",
+    "text": "Yassine est très professionnel, rapide d'exécution et à l'écoute de ses clients. Ce fut un plaisir de collaborer avec lui!",
+    "company": "RE/MAX 2001 M.D."
+  },
+  {
+    "id": 5,
+    "img": "assets/img/testimonials/Sans titre-6.png",
+    "name": "Susana Stroll",
+    "text": "ecently I was contacted by Meryas offering me their services for virtual staging of some of my listings. Since that day, they have done several jobs for me, including some that had ugly furnishings and made it look \"real\" and \"what it could be\".....adding additional value to me and my services for my clients. I recommend the team highly, not only are they quick and efficient, they listen to my comments and improve and deliver. You will not be disappointed. Good luck and thanks Yassine!",
+    "company": "RE/MAX ACTION"
+  },
+  {
+    "id": 6,
+    "img": "assets/img/testimonials/Sans titre-7.png",
+    "name": "Jean Simon Bourgie",
+    "text": "Service excessivement rapide avec un suivi très personnalisé. Je leurs confie tout mes besoins en virtual staging sans hésitations!",
+    "company": "BARNES-QUÉBEC INC."
+  }
+]
