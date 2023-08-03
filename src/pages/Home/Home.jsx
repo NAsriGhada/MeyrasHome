@@ -2,11 +2,12 @@ import React from "react";
 import Partners from "../../components/HomeComponents/Partners/Partners";
 import Banner from "../../components/HomeComponents/Banner/Banner";
 import Services from "../../components/HomeComponents/Services/Services";
-import WeOffer from "../../components/HomeComponents/WeOffer.jsx/WeOffer";
+import WeOffer from "../../components/HomeComponents/WeOffer/WeOffer";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import WhyUs from "../../components/HomeComponents/WhyUs/WhyUs";
-import StagedListing from "../../components/StagedListing/StagedListing";
+import StagedListing from "../../components/HomeComponents/StagedListing/StagedListing";
+
 
 
 const Home = () => {
