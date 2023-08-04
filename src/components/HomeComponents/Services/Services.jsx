@@ -18,9 +18,13 @@ const Services = () => {
             <div className="partOneServicesContent">
               <h2>{t("home.our-services.bloc1.title")}</h2>
               <p>{t("home.our-services.bloc1.text")}</p>
-              <button>
-                <Link to={"/services"}>{t("home.our-services.btns")}</Link>
-              </button>
+              {/* <button>
+                <Link to={"/services"}></Link>
+                {t("home.our-services.btns")}
+              </button> */}
+              <Link to={"/services"}>
+                <button>{t("home.our-services.btns")}</button>
+              </Link>
             </div>
             <img src={Untitled2} alt="" />
           </div>
@@ -28,9 +32,12 @@ const Services = () => {
             <div className="partTwoServicesContent">
               <h2>{t("home.our-services.bloc2.title")}</h2>
               <p>{t("home.our-services.bloc2.text")}</p>
-              <button>
+              {/* <button>
                 <Link to={"/services"}>{t("home.our-services.btns")}</Link>
-              </button>
+              </button> */}
+              <Link to={"/services"}>
+                <button>{t("home.our-services.btns")}</button>
+              </Link>
             </div>
             <img src={Untitled1} alt="" />
           </div>
@@ -38,17 +45,23 @@ const Services = () => {
             <div className="partOneServicesContent">
               <h2>{t("home.our-services.bloc3.title")}</h2>
               <p>{t("home.our-services.bloc3.text")}</p>
-              <button>
+              {/* <button>
                 <Link to={"/services"}>{t("home.our-services.btns")}</Link>
-              </button>
+              </button> */}
+              <Link to={"/services"}>
+                <button>{t("home.our-services.btns")}</button>
+              </Link>
             </div>
             <img src={Untitled3} alt="" />
           </div>
           <div className="go-to-services">
             <p>{t("home.our-services.text")}</p>
-            <button>
+            {/* <button>
               <Link to={"/services"}>{t("home.our-services.btn")}</Link>
-            </button>
+            </button> */}
+            <Link to={"/services"}>
+              <button>{t("home.our-services.btn")}</button>
+            </Link>
           </div>
         </div>
       </div>

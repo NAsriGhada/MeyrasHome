@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
 import {
   VscMenu,
@@ -11,8 +11,12 @@ import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const [activeLanguage, setActiveLanguage] = useState(
+    localStorage.getItem("lng") || "en"
+  );
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    setActiveLanguage(lng);
     localStorage.setItem("lng", lng);
   };
 
@@ -21,8 +25,9 @@ const Header = () => {
   };
 
   return (
-    <div>
-      <div
+    <>
+      {/* !!!!! I CHANGED THE LINKS CSS, I ADDED A CLASS TO ALL OF THE LINK TAGS */}
+      <p
         style={{
           width: "100%",
           backgroundColor: "black",
@@ -48,7 +53,9 @@ const Header = () => {
               </p>
               <p>
                 <span
-                  className="language"
+                  className={`language ${
+                    activeLanguage === "en" ? "active" : ""
+                  }`}
                   onClick={() => changeLanguage("en")}
                   // onClick={() => useLanguage("en")}
                   // You may add a condition to apply the 'active' class based on the selected language
@@ -58,7 +65,9 @@ const Header = () => {
                 </span>
                 -
                 <span
-                  className="language"
+                  className={`language ${
+                    activeLanguage === "fr" ? "active" : ""
+                  }`}
                   onClick={() => changeLanguage("fr")}
                   // onClick={() => useLanguage("fr")}
                   // You may add a condition to apply the 'active' class based on the selected language
@@ -68,7 +77,7 @@ const Header = () => {
                 </span>
               </p>
               <p className="nav-item">
-                <Link to={"/comming-soon"} className="nav-link">
+                <Link to={"/comming-soon"} className="a nav-link">
                   {t("header.topPart.Login")}
                 </Link>
               </p>
@@ -78,7 +87,7 @@ const Header = () => {
           <div className="BG">
             <nav>
               <input type="checkbox" id="check" />
-              <Link to={"/"}>
+              <Link to={"/"} className="a">
                 <label className="logo">
                   <img src={require("../../assets/img/logo/logo.png")} alt="" />
                 </label>
@@ -89,22 +98,24 @@ const Header = () => {
                   <VscChromeClose />
                 </label>
                 <li>
-                  <Link to={"/signUp"}>{t("header.menu.m1")}</Link>
+                  <Link to={"/signUp"} className="a">
+                    {t("header.menu.m1")}
+                  </Link>
                 </li>
                 <li className="link">
-                  <Link to={"/"} className="nav-link">
+                  <Link to={"/"} className="a nav-link">
                     {t("header.menu.m2")}
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/virtual-staging"} className="nav-link">
+                  <Link to={"/virtual-staging"} className="a nav-link">
                     {t("header.menu.m3")}
                   </Link>
                 </li>
                 <li id="dropdown">
                   <Link
                     to={"/services"}
-                    className="nav-link"
+                    className="a nav-link"
                     style={{ display: "flex", justifyContent: "center" }}
                     onClick={toggleSubMenu}
                   >
@@ -121,63 +132,84 @@ const Header = () => {
                     }}
                   >
                     <li>
-                      <a href="http://localhost:4200/services#STAGING">
+                      <Link
+                        to={"http://localhost:4200/services#STAGING"}
+                        className="a"
+                      >
                         VIRTUAL STAGING
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="http://localhost:4200/services#RENOVATION">
+                      <Link
+                        to={"http://localhost:4200/services#RENOVATION"}
+                        className="a"
+                      >
                         VIRTUAL RENOVATION
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="http://localhost:4200/services#MODELING">
+                      <Link
+                        to={"http://localhost:4200/services#MODELING"}
+                        className="a"
+                      >
                         3D MODELING
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="http://localhost:4200/services#ENHANCEMENT">
+                      <Link
+                        to={"http://localhost:4200/services#ENHANCEMENT"}
+                        className="a"
+                      >
                         IMAGE ENHANCEMENT
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="http://localhost:4200/services#REMOVAL">
+                      <Link
+                        to={"http://localhost:4200/services#REMOVAL"}
+                        className="a"
+                      >
                         ITEM REMOVAL
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="http://localhost:4200/services#EDITING">
+                      <Link
+                        to={"http://localhost:4200/services#EDITING"}
+                        className="a"
+                      >
                         CUSTOMIZED EDITING
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="http://localhost:4200/services#VIDEO">
+                      <Link
+                        to={"http://localhost:4200/services#VIDEO"}
+                        className="a"
+                      >
                         LISTING PROMOTIONAL VIDEO
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="/gallery" className="nav-link">
+                  <Link to={"/gallery"} className="a nav-link">
                     {t("header.menu.m5")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contact" className="nav-link">
+                  <Link to={"/contact"} className="a nav-link">
                     {t("header.menu.m6")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/placeOrder" id="order" className="nav-link">
+                  <Link to={"/placeOrder"} id="order" className="a nav-link">
                     {t("header.menu.m7")}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
-      </div>
-    </div>
+      </p>
+    </>
   );
 };
 

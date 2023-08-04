@@ -1,0 +1,646 @@
+.placeOrderMainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    padding-top: 150px;
+    height: 100%;
+    gap: 45px;
+}
+
+.placeOrderContentFirstPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.placeOrderContentFirstPartTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+}
+
+.placeOrderContentFirstPartTitle h1 {
+    padding: 20px;
+}
+
+.placeOrderMainContent h1 {
+    font-size: 22px;
+    line-height: 134.75%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: #041c32;
+    flex-direction: column;
+}
+
+.placeOrderMainContent p {
+    font-size: 19px;
+    line-height: 134.75%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: #041c32;
+}
+
+.placeOrderContentFirstPart img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.placeOrderContentPack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.placeOrderContentPack h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 111.25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #041c32;
+}
+
+/* cards */
+.placeOrderContentPackDetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    width: 80%;
+}
+
+.example-card {
+    max-width: 400px;
+    height: 446px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(4, 28, 50, 0.1);
+    box-shadow: -1px 1px 45px -18px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.example-card img {
+    height: 208px;
+}
+
+.example-card mat-card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 111.25%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #041c32;
+}
+
+.example-card mat-card-subtitle {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 111.25%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: rgba(4, 28, 50, 0.6);
+}
+
+.example-card span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 111.25%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #ff9401;
+}
+
+.example-card p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 111.25%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.example-card input {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 111.25%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    width: 46px;
+    height: 23px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(4, 28, 50, 0.1);
+    border-radius: 3px;
+}
+
+.mat-mdc-card-header {
+    height: 100%;
+    flex-direction: column;
+}
+
+::ng-deep .mat-mdc-card-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+}
+
+.mat-mdc-card-content {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.placeOrderMainContent hr {
+    width: 942px;
+    height: 0px;
+    border: 2px solid rgba(6, 70, 99, 0.4);
+}
+
+.checkOut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.checkOut button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+    background: #18bd5b;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+.checkOut h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 111.25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #041c32;
+}
+
+.checkOut p {
+    font-weight: 500;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.cart-total {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    left: 385px;
+}
+
+.cart-total span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 111.25%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.cart-total p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #041c32;
+}
+
+.filesUpload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.filesUpload p {
+    width: 942px;
+    height: 102px;
+}
+
+.staging-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.staging-style select {
+    width: 471px;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(4, 28, 50, 0.6);
+    box-shadow: -1px 1px 45px -33px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 134.75%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #041c32;
+}
+
+.noteRequest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.noteRequest textarea {
+    width: 943px;
+    height: 316px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(4, 28, 50, 0.6);
+    box-shadow: -1px 1px 45px -33px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.payementMethod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* resp */
+@media screen and (max-width: 700px) {
+    .placeOrderMainContent h1 {
+        font-size: 21px;
+    }
+
+    .placeOrderMainContent p {
+        font-size: 17px;
+    }
+
+    .placeOrderContentFirstPart img {
+        width: 95%;
+    }
+
+    .placeOrderContentFirstPartTitle {
+        width: 490px;
+    }
+
+    .placeOrderContentPack h2 {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .placeOrderMainContent h1 {
+        font-size: 20px;
+    }
+
+    .placeOrderMainContent p {
+        font-size: 16px;
+    }
+
+    .placeOrderContentFirstPartTitle {
+        width: 455px;
+    }
+
+    .placeOrderContentPack h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .placeOrderMainContent h1 {
+        font-size: 19px;
+    }
+
+    .placeOrderMainContent p {
+        font-size: 14px;
+    }
+
+    .placeOrderContentFirstPartTitle {
+        width: 400px;
+    }
+
+    .placeOrderContentPack h2 {
+        font-size: 17px;
+    }
+
+    .example-card {
+        max-width: 380px;
+    }
+
+    .example-card mat-card-title {
+        font-size: 16px;
+    }
+
+    .example-card mat-card-subtitle {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .placeOrderMainContent p {
+        font-size: 13px;
+    }
+
+    .placeOrderContentFirstPartTitle {
+        width: 370px;
+    }
+
+    .example-card {
+        max-width: 365px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .placeOrderMainContent h1 {
+        font-size: 18px;
+    }
+
+    .placeOrderMainContent p {
+        font-size: 12px;
+    }
+
+    .placeOrderContentFirstPartTitle {
+        width: unset;
+    }
+
+    .placeOrderContentPack h2 {
+        font-size: 16px;
+    }
+
+    .example-card {
+        max-width: 345px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .placeOrderMainContent h1 {
+        font-size: 17px;
+    }
+
+    .placeOrderMainContent p {
+        font-size: 11px;
+    }
+
+    .placeOrderContentFirstPart img {
+        width: 100%;
+    }
+
+    .placeOrderContentPack h2 {
+        font-size: 15px;
+    }
+
+    .example-card {
+        max-width: 315px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .example-card {
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .example-card {
+        max-width: 260px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .example-card {
+        max-width: 230px;
+    }
+}
+
+
+
+
+.uploadPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* uoloaad */
+.container {
+    width: 300px;
+    height: 195px;
+    padding: 2rem;
+    text-align: center;
+    border: dotted 3px #1358a8;
+    position: relative;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: auto;
+        height: auto;
+        padding: unset;
+        text-align: center;
+        border: unset;
+    }
+}
+
+.container input {
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container label {
+    color: #000000;
+    width: 183px;
+    height: 35px;
+    background-color: #cccccc;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: 'Open-sans', sans-serif;
+    position: relative;
+    bottom: 48px;
+}
+
+.container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #38424c;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 15%);
+    position: relative;
+    bottom: 33px;
+}
+
+.fileover {
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+
+.files-list {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    height: 189px;
+    max-width: 310px;
+    /* background-image: url(src\assets\img\filelogo.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 300px;
+}
+
+#droplogo {
+    position: relative;
+    bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .files-list {
+        max-width: 995px;
+        justify-content: space-evenly;
+        margin: 11px 22px;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    #droplogo {
+        display: none;
+    }
+
+    .cc {
+        height: 600px;
+        padding-right: 15px;
+    }
+}
+
+.single-file img {
+    width: 130px;
+    border-radius: 5px;
+}
+
+.files-list .single-file .name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #353f4a;
+    margin: 0;
+}
+
+.files-list .single-file .size {
+    font-size: 12px;
+    font-weight: 500;
+    color: #a4a4a4;
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+
+.files-list .single-file .info {
+    width: 100%;
+}
+
+
+
+.order {
+    display: block !important;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.order span {
+    color: #ff9401;
+}
+
+.desktop {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+}
+
+.mobile {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}

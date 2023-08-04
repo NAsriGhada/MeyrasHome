@@ -1,24 +1,24 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-// import "./StagedListing.css";
-import listings from "../../../data/listings.json";
+// import "./stage.css";
+import listings from "../data/listings.json";
 import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
-import prevIcon from "../../../assets/img/icons/prev.svg";
-import nextIcon from "../../../assets/img/icons/next.svg";
+import "owl.carousel/dist/assets/owl.carousel.min.css";
+import "owl.carousel/dist/assets/owl.theme.default.min.css";
+import prevIcon from "../assets/img/icons/prev.svg";
+import nextIcon from "../assets/img/icons/next.svg";
 
 const listing = (imgName) => {
-  return require(`../../../assets/img/listing/${imgName}`);
+  return require(`../assets/img/listing/${imgName}`);
 };
 const testimonials = (imgName) => {
-  return require(`../../../assets/img/testimonials/${imgName}`);
+  return require(`../assets/img/testimonials/${imgName}`);
 };
 const company = (imgName) => {
-  return require(`../../../assets/img/testimonials/${imgName}`);
+  return require(`../assets/img/testimonials/${imgName}`);
 };
 
-const StagedListing = () => {
+const Stage = () => {
   const { t } = useTranslation();
   const customOptions = {
     loop: false,
@@ -53,15 +53,15 @@ const StagedListing = () => {
     <div className="vs-container">
       <div className="vs-title">{t("home.recent-listings.title")}</div>
       <div id="recent-listings">
-        <OwlCarousel className=" owl-theme" {...customOptions}>
+        <OwlCarousel className="owl-carousel owl-theme" {...customOptions}>
           {listings.map((item) => (
-            <div key={item.id} className="aa">
-              {item.images.map((image, index) => (
-                <div key={`${item.id}-${index}`} id="item">
-                  <img src={listing(image)} className="listinig-img" alt="" />
+            <div key={item.id}>
+              {item.images.map((image, imageIndex) => (
+                <div key={imageIndex} className="item">
+                  <img src={listing(image)} className="listing-img" alt={``} />
                 </div>
               ))}
-              <div key={`${item.id}-info`} className="recent-listner">
+              <div className="recent-listner">
                 <img
                   id="recent-listner"
                   src={testimonials(item.photo)}
@@ -85,4 +85,4 @@ const StagedListing = () => {
   );
 };
 
-export default StagedListing;
+export default Stage;

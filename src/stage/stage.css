@@ -62,7 +62,7 @@ p {
     }
 }
 
-::ng-deep .owl-theme .owl-dots .owl-dot span {
+ .owl-theme .owl-dots .owl-dot span {
     border-radius: 2px !important;
     background: #E0DBDB;
     width: 18px;
@@ -74,36 +74,36 @@ p {
 }
 
 @media screen and (max-width:940px) {
-    ::ng-deep .owl-theme .owl-dots .owl-dot span {
+     .owl-theme .owl-dots .owl-dot span {
         width: 15px;
         height: 15px;
     }
 }
 
 @media screen and (max-width:740px) {
-    ::ng-deep .owl-theme .owl-dots .owl-dot span {
+     .owl-theme .owl-dots .owl-dot span {
         width: 12px;
         height: 12px;
     }
 }
 
 @media screen and (max-width:400px) {
-    ::ng-deep .owl-theme .owl-dots .owl-dot span {
+     .owl-theme .owl-dots .owl-dot span {
         width: 9px;
         height: 9px;
     }
 }
 
 @media screen and (max-width:300px) {
-    ::ng-deep .owl-theme .owl-dots .owl-dot span {
+     .owl-theme .owl-dots .owl-dot span {
         width: 6px;
         height: 6px;
     }
 }
 
 
-::ng-deep .owl-theme .owl-dots .owl-dot.active span,
-::ng-deep .owl-theme .owl-dots .owl-dot:hover span {
+ .owl-theme .owl-dots .owl-dot.active span,
+ .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #ECB365;
 }
 
@@ -121,7 +121,7 @@ p {
 
 
 
-::ng-deep .vs-container .owl-carousel.owl-drag .owl-item {
+ .vs-container .owl-carousel .owl-drag .owl-item {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
@@ -151,7 +151,7 @@ p {
 }
 
 @media screen and (max-width:800px) {
-    ::ng-deep .owl-carousel.owl-drag .owl-item {
+     .owl-carousel.owl-drag .owl-item {
         display: flex !important;
         flex-direction: column !important;
         gap: 16px;
@@ -186,13 +186,13 @@ p {
 
 }
 
-::ng-deep .owl-theme .owl-nav [class*=owl-] {
+ .owl-theme .owl-nav [class*=owl-] {
     padding-top: 9px;
     font-size: 5px;
 }
 
-::ng-deep .owl-prev,
-::ng-deep .owl-next {
+ .owl-prev,
+ .owl-next {
     border-radius: 50% !important;
     background-color: #ECB365 !important;
     height: 47px;
@@ -201,7 +201,7 @@ p {
 
 
 
-::ng-deep .owl-theme .owl-nav {
+ .owl-theme .owl-nav {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -209,7 +209,7 @@ p {
 }
 
 @media screen and (max-width:1327px) {
-    ::ng-deep .owl-theme .owl-nav {
+     .owl-theme .owl-nav {
         display: none;
     }
 }
