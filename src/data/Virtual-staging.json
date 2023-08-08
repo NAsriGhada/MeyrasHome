@@ -1,71 +1,71 @@
 [
   {
     "id": 1,
-    "imageBefore": "assets/img/vs/Living.jpg",
-    "imageAfter": "assets/img/vs/Living 2.jpg",
+    "imageBefore": "Living.jpg",
+    "imageAfter": "Living 2.jpg",
     "text": "living room",
     "textFr": "salon"
   },
   {
     "id": 2,
-    "imageBefore": "assets/img/vs/dining.jpg",
-    "imageAfter": "assets/img/vs/dining2.jpg",
+    "imageBefore": "dining.jpg",
+    "imageAfter": "dining2.jpg",
     "text": "dining room",
     "textFr": "salle à manger"
   },
   {
     "id": 3,
-    "imageBefore": "assets/img/vs/16831911.jpg",
-    "imageAfter": "assets/img/vs/16831911-VS-HT.jpg",
+    "imageBefore": "16831911.jpg",
+    "imageAfter": "16831911-VS-HT.jpg",
     "text": "bedroom",
     "textFr": "chambre à coucher"
   },
   {
     "id": 4,
-    "imageBefore": "assets/img/vs/Salon 2.1.jpg",
-    "imageAfter": "assets/img/vs/Salon 2 - P2.jpg",
+    "imageBefore": "Salon 2.1.jpg",
+    "imageAfter": "Salon 2 - P2.jpg",
     "text": "overview - living room",
     "textFr": "vue d'ensemble - salle de séjour"
   },
   {
     "id": 5,
-    "imageBefore": "assets/img/vs/Dressing.jpg",
-    "imageAfter": "assets/img/vs/Dressing (1).jpg",
+    "imageBefore": "Dressing.jpg",
+    "imageAfter": "Dressing (1).jpg",
     "text": "walk-in closet",
     "textFr": "dressing"
   },
   {
     "id": 6,
-    "imageBefore": "assets/img/vs/CAC.jpg",
-    "imageAfter": "assets/img/vs/CAC 2.jpg",
+    "imageBefore": "CAC.jpg",
+    "imageAfter": "CAC 2.jpg",
     "text": "bedroom",
     "textFr": "chambre à coucher"
   },
   {
     "id": 7,
-    "imageBefore": "assets/img/vs/dining.jpg",
-    "imageAfter": "assets/img/vs/dining2.jpg",
+    "imageBefore": "dining.jpg",
+    "imageAfter": "dining2.jpg",
     "text": "overview - dining room",
     "textFr": "vue d'ensemble - salle à manger"
   },
   {
     "id": 8,
-    "imageBefore": "assets/img/vs/20399345_HBT.jpg",
-    "imageAfter": "assets/img/vs/20399345.jpg",
+    "imageBefore": "20399345_HBT.jpg",
+    "imageAfter": "20399345.jpg",
     "text": "bedroom",
     "textFr": "chambre à coucher"
   },
   {
     "id": 9,
-    "imageBefore": "assets/img/vs/salle familiale 1.jpeg",
-    "imageAfter": "assets/img/vs/salle familiale 1.jpg",
+    "imageBefore": "salle familiale 1.jpeg",
+    "imageAfter": "salle familiale 1.jpg",
     "text": "family room",
     "textFr": "salle familiale"
   },
   {
     "id": 10,
-    "imageBefore": "assets/img/vs/Rosanne Ruthh.jpg",
-    "imageAfter": "assets/img/vs/Rosanne Ruth.jpg",
+    "imageBefore": "Rosanne Ruthh.jpg",
+    "imageAfter": "Rosanne Ruth.jpg",
     "text": "patio",
     "textFr": "terrasse"
   }

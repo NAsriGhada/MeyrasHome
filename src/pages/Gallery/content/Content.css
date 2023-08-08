@@ -1,0 +1,28 @@
+section.galleryContentContainer {
+    padding: 165px 30px 50px 30px;
+}
+
+.nav-tabs .nav-link {
+    color: #041C32;
+    border: solid 1px;
+    border-radius: unset;
+    border-left: unset;
+    background-color: #d6dae1;
+}
+
+#ngb-nav-0 {
+    border-left: solid 1px;
+}
+
+.nav-tabs .nav-link:focus {
+    background-color: #1358a8;
+    color: white;
+    border: solid 1px #1358a8;
+    border-radius: unset;
+    box-shadow: 0px 0px 14px 0px rgba(18, 74, 140, 1) inset;
+
+}
+
+.nav-tabs {
+    border-bottom: solid 5px #1358a8;
+}

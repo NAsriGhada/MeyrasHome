@@ -1,6 +1,6 @@
 import React from "react";
+// import './StagedListing.css'
 import { useTranslation } from "react-i18next";
-// import "./StagedListing.css";
 import listings from "../../../data/listings.json";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";

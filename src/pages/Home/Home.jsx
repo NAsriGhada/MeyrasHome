@@ -8,23 +8,25 @@ import Footer from "../../components/Footer/Footer";
 import WhyUs from "../../components/HomeComponents/WhyUs/WhyUs";
 import StagedListing from "../../components/HomeComponents/StagedListing/StagedListing";
 import { PlaceOrder } from "../../components/HomeComponents/PlaceOrderComponent/PlaceOrder";
+import Testimonials from "../../components/HomeComponents/Testimonials/Testimonials";
+
 
 
 
 const Home = () => {
   return (
     <div className="bg">
-      <Header />
+      {/* <Header />
       <Banner />
       <WhyUs />
-      {/* <StagedListing /> */}
+      <StagedListing />
       <WeOffer />
       <PlaceOrder />
       <Services />
       <Partners />
       <PlaceOrder />
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta enim iusto at eaque dolore cum, tenetur, quod facilis error numquam repellendus molestias sit sint corporis qui corrupti, perspiciatis id expedita.
-      <Footer />
+     <Testimonials />
+      <Footer /> */}
     </div>
   );
 };

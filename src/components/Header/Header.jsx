@@ -18,6 +18,7 @@ const Header = () => {
     i18n.changeLanguage(lng);
     setActiveLanguage(lng);
     localStorage.setItem("lng", lng);
+    console.log(`Language changed to: ${lng}`);
   };
 
   const toggleSubMenu = () => {
