@@ -34,8 +34,8 @@
 
 .vsImagesAll {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .vsImages {
@@ -43,6 +43,26 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
+}
+
+::-webkit-scrollbar::content {
+    background-color: #d5d1d1;
+    width: 8px;
+    height: 4px;
+    /* border-radius: 5px; */
+}
+
+::-webkit-scrollbar-thumb::content {
+    background-color: #686868;
+    width: 8px;
+    height: 4px;
+    /* border-radius: 5px; */
+}
+
+.vsImages img {
+    width: 85%;
+    height: 50%;
+    padding-bottom: 20px;
 }
 
 .vsImages h2 {
@@ -55,7 +75,6 @@
     text-transform: uppercase;
     color: #041c32;
     padding-bottom: 15px;
-    padding-top: 15px;
 }
 
 .titleRef {
@@ -63,10 +82,6 @@
     align-items: center;
     justify-content: space-between;
     width: 80%;
-}
-
-.first .first-overlay {
-    cursor: col-resize;
 }
 
 @media only screen and (max-width: 1060px) {

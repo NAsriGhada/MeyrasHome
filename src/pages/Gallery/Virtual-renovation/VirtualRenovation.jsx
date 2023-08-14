@@ -1,35 +1,33 @@
-import React, { useState } from 'react'
-import './ItemRemoval.css'
+import React, { useEffect, useState } from 'react'
+import './VirtualRenovation.css'
+import vr from "../../../data/Virtual-renovation.json";
 import { useTranslation } from "react-i18next";
-import ir from "../../../data/item-removal.json";
 
 
-
-const ItemRemoval = () => {
-    const { t } = useTranslation();
+const VirtualRenovation = () => {
+      const { t } = useTranslation();
 
     const before = (imgName) => {
-      return require(`../../../assets/img/ir_galley/${imgName}`);
+      return require(`../../../assets/img/vr_gallery/${imgName}`);
     };
     const after = (imgName) => {
-      return require(`../../../assets/img/ir_galley/${imgName}`);
+      return require(`../../../assets/img/vr_gallery/${imgName}`);
     };
 
-        const [irData, setIrData] = useState(ir);
+    const [vrData, setVrData] = useState(vr);
+    const [language, setLanguage] = useState(localStorage.getItem("lng"));
 
- const [language, setLanguage] = useState(localStorage.getItem("lng"));
-
- const storedLanguage = localStorage.getItem("lng");
- if (storedLanguage !== language) {
-   setLanguage(storedLanguage);
- }
+    const storedLanguage = localStorage.getItem("lng");
+    if (storedLanguage !== language) {
+      setLanguage(storedLanguage);
+    }
   return (
     <>
       <section>
         <div className="vs-container">
-          <p>{t("gallery.IR.text")}</p>
+          <p>{t("gallery.VR.text")}</p>
           <div className="vsImagesAll">
-            {irData.map((item, index) => (
+            {vrData.map((item, index) => (
               <div className="vsImages" key={index}>
                 <img-comparison-slider
                   style={{
@@ -48,8 +46,8 @@ const ItemRemoval = () => {
                   <img
                     slot="second"
                     src={after(item.imageAfter)}
-                    style={{ width: "100%", height: "100%" }}
-                    alt=""
+                            style={{ width: "100%", height: "100%" }}
+                            alt=''
                   />
                 </img-comparison-slider>
                 <div className="titleRef">
@@ -66,4 +64,4 @@ const ItemRemoval = () => {
   );
 }
 
-export default ItemRemoval
+export default VirtualRenovation

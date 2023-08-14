@@ -1,61 +1,61 @@
 [
   {
     "id": 1,
-    "images": "/assets/img/3dModeling/Meryas-Façade 2.jpg",
+    "images": "Meryas-Façade 2.jpg",
     "title":"facade",
     "titleFr":"façade"
   },
   {
     "id": 2,
-    "images": "/assets/img/3dModeling/Meryas-Façade 1.jpg",
+    "images": "Meryas-Façade 1.jpg",
     "title":"facade",
     "titleFr":"façade"
   },
   {
     "id": 3,
-    "images": "/assets/img/3dModeling/3D_Commande2_Vue d'ensemble_ (1).jpg",
+    "images": "3D_Commande2_Vue d'ensemble_ (1).jpg",
     "title":"overview - living room",
     "titleFr":"vue d'ensemble - salle de séjour"
   },
   {
     "id": 4,
-    "images": "/assets/img/3dModeling/Bureau_3D_.jpg",
+    "images": "Bureau_3D_.jpg",
     "title":"den",
     "titleFr":"nid"
   },
   {
     "id": 5,
-    "images": "/assets/img/3dModeling/Guest Bedroom.jpg",
+    "images": "Guest Bedroom.jpg",
     "title":"bedroom",
     "titleFr":"chambre à coucher"
   },
   {
     "id": 6,
-    "images": "/assets/img/3dModeling/LR-MH.jpg",
+    "images": "LR-MH.jpg",
     "title":"living room",
     "titleFr":"salon"
   },
   {
     "id": 7,
-    "images": "/assets/img/3dModeling/MH_27.jpg",
+    "images": "MH_27.jpg",
     "title":"bedroom",
     "titleFr":"chambre à coucher"
   },
   {
     "id": 8,
-    "images": "/assets/img/3dModeling/MH_28.jpg",
+    "images": "MH_28.jpg",
     "title":"bathroom",
     "titleFr":"salle de bain"
   },
   {
     "id": 8,
-    "images": "/assets/img/3dModeling/MH_25.jpg",
+    "images": "MH_25.jpg",
     "title":"overview - living room",
     "titleFr":"vue d'ensemble - salle de séjour"
   },
   {
     "id": 9,
-    "images": "/assets/img/3dModeling/SAM_3D_.jpg",
+    "images": "SAM_3D_.jpg",
     "title":"overview - kitchen",
     "titleFr":"vue d'ensemble - cuisine"
   }

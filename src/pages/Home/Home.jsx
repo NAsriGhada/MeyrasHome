@@ -8,7 +8,7 @@ import Footer from "../../components/Footer/Footer";
 import WhyUs from "../../components/HomeComponents/WhyUs/WhyUs";
 import StagedListing from "../../components/HomeComponents/StagedListing/StagedListing";
 import { PlaceOrder } from "../../components/HomeComponents/PlaceOrderComponent/PlaceOrder";
-import Testimonials from "../../components/HomeComponents/Testimonials/Testimonials";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 
 
@@ -16,7 +16,7 @@ import Testimonials from "../../components/HomeComponents/Testimonials/Testimoni
 const Home = () => {
   return (
     <div className="bg">
-      {/* <Header />
+      <Header />
       <Banner />
       <WhyUs />
       <StagedListing />
@@ -26,7 +26,7 @@ const Home = () => {
       <Partners />
       <PlaceOrder />
      <Testimonials />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };

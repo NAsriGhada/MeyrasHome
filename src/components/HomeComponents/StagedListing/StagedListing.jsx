@@ -1,5 +1,4 @@
 import React from "react";
-// import './StagedListing.css'
 import { useTranslation } from "react-i18next";
 import listings from "../../../data/listings.json";
 import OwlCarousel from "react-owl-carousel";
@@ -55,13 +54,13 @@ const StagedListing = () => {
       <div id="recent-listings">
         <OwlCarousel className=" owl-theme" {...customOptions}>
           {listings.map((item) => (
-            <div key={item.id} className="aa">
+            <div key={item.id} className="item">
               {item.images.map((image, index) => (
-                <div key={`${item.id}-${index}`} id="item">
+                <div key={index} id="item" className="item-image">
                   <img src={listing(image)} className="listinig-img" alt="" />
                 </div>
               ))}
-              <div key={`${item.id}-info`} className="recent-listner">
+              <div className="recent-listner">
                 <img
                   id="recent-listner"
                   src={testimonials(item.photo)}

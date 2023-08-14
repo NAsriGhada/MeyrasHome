@@ -2,13 +2,13 @@
  
     {
       "id": 1,
-      "img": "assets/img/Vyce.jpg",
+      "img": "Vyce.jpg",
       "name": "Vyce",
       "ref": "MH_TR_777"
     },
     {
       "id": 2,
-      "img": "assets/img/coming-soon.jpg",
+      "img": "coming-soon.jpg",
       "name": "Comming soon"
     }
   ]

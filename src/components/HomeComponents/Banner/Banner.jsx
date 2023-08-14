@@ -5,6 +5,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import UntitledImg from '../../../assets/img/Untitled-2 1.png'
 
+
 const Banner = () => {
   const { t } = useTranslation();
   const customOptions = {

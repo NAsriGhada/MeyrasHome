@@ -2,6 +2,11 @@ section.galleryContentContainer {
     padding: 165px 30px 50px 30px;
 }
 
+/* ul{
+    list-style-type: none;
+    display: flex;
+} */
+
 .nav-tabs .nav-link {
     color: #041C32;
     border: solid 1px;
@@ -13,6 +18,7 @@ section.galleryContentContainer {
 #ngb-nav-0 {
     border-left: solid 1px;
 }
+
 
 .nav-tabs .nav-link:focus {
     background-color: #1358a8;
@@ -26,3 +32,4 @@ section.galleryContentContainer {
 .nav-tabs {
     border-bottom: solid 5px #1358a8;
 }
+

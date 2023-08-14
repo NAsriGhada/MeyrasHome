@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import prevIcon from "../../../assets/img/icons/prev.svg";
-import nextIcon from "../../../assets/img/icons/next.svg";
-import testimonials from "../../../data/testimonials.json";
+import prevIcon from "../../assets/img/icons/prev.svg";
+import nextIcon from "../../assets/img/icons/next.svg";
+import testimonials from "../../data/testimonials.json";
 
 const testimonial = (imgName) => {
-  return require(`../../../assets/img/testimonials/${imgName}`);
+  return require(`../../assets/img/testimonials/${imgName}`);
 };
 
 const Testimonials = () => {
@@ -44,7 +44,8 @@ const Testimonials = () => {
         },
       },
       nav: true,
-    };
+  };
+  console.log(customOptions.navText[0])
 
   return (
     <>
@@ -54,7 +55,7 @@ const Testimonials = () => {
             <h1>{t("reviews.title")}</h1>
           </Link>
         </div>
-        <OwlCarousel options={customOptions}>
+        <OwlCarousel className="owl-theme" {...customOptions}>
           {testimonials.map((item, index) => (
             <div key={index} id="agent-testimonial">
               <img src={testimonial(item.img)} alt="" id="test-img" />

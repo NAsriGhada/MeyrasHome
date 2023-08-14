@@ -5,11 +5,11 @@ import Footer from "../../components/Footer/Footer";
 import Content from "./content/Content";
 import Partners from "../../components/HomeComponents/Partners/Partners";
 import { PlaceOrder } from "../../components/HomeComponents/PlaceOrderComponent/PlaceOrder";
-import Testimonials from "../../components/HomeComponents/Testimonials/Testimonials";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 const Gallery = () => {
   return (
-    <div>
+    <div className="bg">
       <Header />
       <Content />
       <Partners />

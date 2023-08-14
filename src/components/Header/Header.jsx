@@ -21,6 +21,15 @@ const Header = () => {
     console.log(`Language changed to: ${lng}`);
   };
 
+  // useEffect(() => {
+  //   i18n.changeLanguage(activeLanguage);
+  //   localStorage.setItem("lng", activeLanguage);
+  // }, [activeLanguage]);
+
+  // const changeLanguage = (lng) => {
+  //   setActiveLanguage(lng);
+  // };
+
   const toggleSubMenu = () => {
     // Implementation for toggling the sub-menu goes here
   };

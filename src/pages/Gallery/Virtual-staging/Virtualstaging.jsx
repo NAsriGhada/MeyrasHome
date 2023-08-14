@@ -8,19 +8,25 @@ const Virtualstaging = () => {
   const [vsData, setVsData] = useState(vs);
 
   const [language, setLanguage] = useState(localStorage.getItem("lng"));
-  console.log(language)
+  console.log(`the initial value: ${language}`)
+  
+  console.log(localStorage)
 
-  useEffect(() => {
-    console.log("useEffect triggered. Language:", language);
-    const storedLanguage = localStorage.getItem("lng");
-    console.log("Stored language:", storedLanguage);
-    if (storedLanguage !== language) {
-      console.log("Updating language to:", storedLanguage);
-      setLanguage(storedLanguage);
-      console.log("Language updated");
-    }
-  }, [language]);
-
+//  useEffect(() => {
+//    const storedLanguage = localStorage.getItem("lng");
+//    console.log("Stored language:", storedLanguage);
+//    if (storedLanguage && storedLanguage !== language) {
+//      console.log("Updating language to:", storedLanguage);
+//      setLanguage(storedLanguage);
+//      console.log("Language updated");
+//    }
+//  }, [language]);
+  
+  const storedLanguage = localStorage.getItem("lng");
+  if (storedLanguage !== language) {
+    setLanguage(storedLanguage);
+  }
+  console.log(`the stored language: ${storedLanguage}`)
 
 
   const before = (imgName) => {
