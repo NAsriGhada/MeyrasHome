@@ -8,6 +8,8 @@ import Testimonial from "./pages/Testimonial/Testimonial.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Gallery from "./pages/Gallery/Gallery.jsx";
 import Panoramic from "./pages/Gallery/Panoramic/Panoramic";
+import VirtualStaging from "./pages/VirtualStaging/VirtualStaging";
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route element={<Contact />} path="/contact" />
         <Route element={<Gallery />} path="/gallery" />
         <Route element={<Panoramic />} path="/panoramic/:imageId" />
+        <Route element={<VirtualStaging />} path="/virtual-staging" />
       </Routes>
     </div>
   );
